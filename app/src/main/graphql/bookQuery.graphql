@@ -1,0 +1,6 @@
+query booksQuery{
+  books{
+    title
+    author
+  }
+}

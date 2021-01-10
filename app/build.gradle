@@ -50,6 +50,7 @@ dependencies {
     implementation 'com.apollographql.apollo:apollo-runtime:2.5.2'
     // Coroutines extensions for easier asynchronicity handling
     implementation 'com.apollographql.apollo:apollo-coroutines-support:2.5.2'
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.2.0")
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
